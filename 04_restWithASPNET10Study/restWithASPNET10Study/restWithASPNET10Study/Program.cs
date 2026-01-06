@@ -1,3 +1,4 @@
+using restWithASPNET10Study.Configurations;
 using restWithASPNET10Study.Services;
 using restWithASPNET10Study.Services.Impl;
 
@@ -5,7 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.AddLoggingConfiguration();
+
 builder.Services.AddControllers();
+
+builder.Services.AddDatabaseConfiguration(builder.Configuration);
 
 builder.Services.AddScoped<IUserService, UserServiceImpl>();
 

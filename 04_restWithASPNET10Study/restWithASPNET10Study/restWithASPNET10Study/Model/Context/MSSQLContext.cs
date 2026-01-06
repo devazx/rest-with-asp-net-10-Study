@@ -1,6 +1,12 @@
-﻿namespace restWithASPNET10Study.Model.Context
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace restWithASPNET10Study.Model.Context
 {
-    public class MSSQLContext
+    public class MSSQLContext : DbContext
     {
+        public MSSQLContext(DbContextOptions<MSSQLContext> options) : base(options) {}
+        public DbSet<User> Users { get; set; }
+
+         
     }
 }

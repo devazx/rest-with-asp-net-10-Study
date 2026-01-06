@@ -5,7 +5,7 @@ using restWithASPNET10Study.Services;
 namespace restWithASPNET10Study.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class UserController : Controller
     {
         private IUserService _userService;
@@ -23,9 +23,7 @@ namespace restWithASPNET10Study.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var user = _userService.FindById(id);
-            if (user == null) return NotFound();
-            return Ok(user);
+            return Ok(_userService.FindById(id));
         }
 
         [HttpPost]
