@@ -14,6 +14,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddDatabaseConfiguration(builder.Configuration);
 
+builder.Services.AddEvolveConfiguration(builder.Configuration, builder.Environment);
+
 builder.Services.AddScoped<IUserService, UserServiceImpl>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();

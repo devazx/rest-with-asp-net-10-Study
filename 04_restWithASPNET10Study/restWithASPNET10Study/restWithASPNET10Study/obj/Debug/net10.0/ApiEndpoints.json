@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "restWithASPNET10Study.Controllers.TestLogsController",
+    "Method": "LogTest",
+    "RelativePath": "api/TestLogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "restWithASPNET10Study.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/User",

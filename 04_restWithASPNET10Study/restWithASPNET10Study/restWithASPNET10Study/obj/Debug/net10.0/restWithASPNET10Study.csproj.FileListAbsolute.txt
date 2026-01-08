@@ -71,3 +71,14 @@ D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10St
 D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\obj\Debug\net10.0\restWithASPNET10Study.pdb
 D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\obj\Debug\net10.0\restWithASPNET10Study.genruntimeconfig.cache
 D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\obj\Debug\net10.0\ref\restWithASPNET10Study.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Evolve.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.AspNetCore.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+D:\GitHub\rest-with-asp-net-10-Study\04_restWithASPNET10Study\restWithASPNET10Study\restWithASPNET10Study\bin\Debug\net10.0\Serilog.Sinks.File.dll

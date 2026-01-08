@@ -38,6 +38,19 @@
           }
         }
       },
+      "Evolve/3.3.0-alpha1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Evolve.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Evolve.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
         "compile": {
@@ -686,6 +699,20 @@
         "lib/net8.0/Azure.Identity.xml",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Evolve/3.3.0-alpha1": {
+      "sha512": "ZVAhhZUErgus7kI/Io/RbpGpQ71SD3WCUBAcY+iLJ1eAj5VJN8Z+dQKDHum8RkvUPNkhLMA70F/XGgXuQGTtsA==",
+      "type": "package",
+      "path": "evolve/3.3.0-alpha1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "evolve.3.3.0-alpha1.nupkg.sha512",
+        "evolve.nuspec",
+        "lib/netstandard2.0/Evolve.dll",
+        "lib/netstandard2.0/Evolve.pdb",
+        "lib/netstandard2.0/Evolve.xml"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
@@ -1518,6 +1545,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Evolve >= 3.3.0-alpha1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.1",
       "Serilog.AspNetCore >= 10.0.0",
       "Serilog.Settings.Configuration >= 10.0.0",
@@ -1574,6 +1602,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "Evolve": {
+            "target": "Package",
+            "version": "[3.3.0-alpha1, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[10.0.1, )"
