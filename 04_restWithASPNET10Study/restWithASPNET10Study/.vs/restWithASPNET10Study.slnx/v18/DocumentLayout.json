@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\db\\dataset\\v1__populate_table_user.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\db\\dataset\\v1__populate_table_user.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\db\\migrations\\v1__create_table_user.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\db\\migrations\\v1__create_table_user.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\configurations\\evolveconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\configurations\\evolveconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\configurations\\loggingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\configurations\\loggingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\services\\impl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\services\\impl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\repositories\\impl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\repositories\\impl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\restwithaspnet10study.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\repositories\\impl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\repositories\\impl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\controllers\\testlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\controllers\\testlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\configurations\\evolveconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\configurations\\evolveconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\services\\impl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\services\\impl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\restwithaspnet10study.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -53,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|d:\\github\\rest-with-asp-net-10-study\\04_restwithaspnet10study\\restwithaspnet10study\\restwithaspnet10study\\db\\dataset\\v1__populate_table_user.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{C56E2482-EBD1-0158-8F8A-13408569862C}|restWithASPNET10Study\\restWithASPNET10Study.csproj|solutionrelative:restwithaspnet10study\\db\\dataset\\v1__populate_table_user.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,54 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "V1__Populate_Table_User.sql ",
-              "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\DB\\dataset\\V1__Populate_Table_User.sql",
-              "RelativeDocumentMoniker": "restWithASPNET10Study\\DB\\dataset\\V1__Populate_Table_User.sql",
-              "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\DB\\dataset\\V1__Populate_Table_User.sql",
-              "RelativeToolTip": "restWithASPNET10Study\\DB\\dataset\\V1__Populate_Table_User.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-08T01:22:02.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "V1__Create_Table_User.sql",
-              "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\DB\\Migrations\\V1__Create_Table_User.sql",
-              "RelativeDocumentMoniker": "restWithASPNET10Study\\DB\\Migrations\\V1__Create_Table_User.sql",
-              "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\DB\\Migrations\\V1__Create_Table_User.sql",
-              "RelativeToolTip": "restWithASPNET10Study\\DB\\Migrations\\V1__Create_Table_User.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-08T01:21:13.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoggingConfig.cs",
-              "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Configurations\\LoggingConfig.cs",
-              "RelativeDocumentMoniker": "restWithASPNET10Study\\Configurations\\LoggingConfig.cs",
-              "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Configurations\\LoggingConfig.cs",
-              "RelativeToolTip": "restWithASPNET10Study\\Configurations\\LoggingConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:13:35.113Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "EvolveConfig.cs",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Configurations\\EvolveConfig.cs",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\Configurations\\EvolveConfig.cs",
               "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Configurations\\EvolveConfig.cs",
               "RelativeToolTip": "restWithASPNET10Study\\Configurations\\EvolveConfig.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T00:58:59.917Z"
+              "WhenOpened": "2026-01-08T00:58:59.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\Repositories\\IUserRepository.cs",
@@ -133,11 +83,12 @@
               "RelativeToolTip": "restWithASPNET10Study\\Repositories\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T19:50:34.169Z"
+              "WhenOpened": "2026-01-07T19:50:34.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "restWithASPNET10Study.csproj",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study.csproj",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\restWithASPNET10Study.csproj",
@@ -149,39 +100,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Repositories\\Impl\\UserRepository.cs",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\Repositories\\Impl\\UserRepository.cs",
               "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Repositories\\Impl\\UserRepository.cs",
               "RelativeToolTip": "restWithASPNET10Study\\Repositories\\Impl\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T19:48:15.45Z"
+              "WhenOpened": "2026-01-07T19:48:15.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Program.cs",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\Program.cs",
               "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Program.cs",
               "RelativeToolTip": "restWithASPNET10Study\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T23:30:52.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TestLogsController.cs",
-              "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Controllers\\TestLogsController.cs",
-              "RelativeDocumentMoniker": "restWithASPNET10Study\\Controllers\\TestLogsController.cs",
-              "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Controllers\\TestLogsController.cs",
-              "RelativeToolTip": "restWithASPNET10Study\\Controllers\\TestLogsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T21:51:28.796Z"
+              "WhenOpened": "2026-01-04T23:30:52.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -197,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\Controllers\\UserController.cs",
@@ -209,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\appsettings.json",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\appsettings.json",
@@ -221,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "restWithASPNET10Study\\Services\\IUserService.cs",
@@ -230,6 +171,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-04T18:04:15.796Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Model\\Book.cs",
+              "RelativeDocumentMoniker": "restWithASPNET10Study\\Model\\Book.cs",
+              "ToolTip": "D:\\GitHub\\rest-with-asp-net-10-Study\\04_restWithASPNET10Study\\restWithASPNET10Study\\restWithASPNET10Study\\Model\\Book.cs",
+              "RelativeToolTip": "restWithASPNET10Study\\Model\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T23:31:42.55Z",
+              "EditorCaption": ""
             }
           ]
         }
