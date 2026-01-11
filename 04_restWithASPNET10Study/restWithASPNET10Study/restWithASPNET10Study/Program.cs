@@ -16,6 +16,10 @@ builder.Services.AddDatabaseConfiguration(builder.Configuration);
 
 builder.Services.AddEvolveConfiguration(builder.Configuration, builder.Environment);
 
+builder.Services.AddScoped<IBooksService, BooksServiceImpl>();
+
+builder.Services.AddScoped<IBooksRepository, BooksRepository>();
+
 builder.Services.AddScoped<IUserService, UserServiceImpl>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();

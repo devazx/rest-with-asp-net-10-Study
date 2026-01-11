@@ -6,13 +6,13 @@ namespace restWithASPNET10Study.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UserController : Controller
+    public class BooksController : Controller
     {
-        private IUserService _userService;
-        private readonly ILogger<UserController> _logger;
-        public UserController(IUserService userService, ILogger<UserController> logger)
+        private IBooksService _booksService;
+        private readonly ILogger<BooksController> _logger;
+        public BooksController(IBooksService booksService, ILogger<BooksController> logger)
         {
-            _userService = userService;
+            _booksService = booksService;
             _logger = logger;
         }
 
@@ -20,14 +20,14 @@ namespace restWithASPNET10Study.Controllers
         public IActionResult Get()
         {
             _logger.LogInformation("Getting all users");
-            return Ok(_userService.FindAll());
+            return Ok(_booksService.FindAll());
         }
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             _logger.LogInformation("Getting user with ID: {id}", id);
-            var user = _userService.FindById(id);
+            var user = _booksService.FindById(id);
             if (user == null)
             {
                 _logger.LogError("User with ID: {id} not found", id);
@@ -38,33 +38,33 @@ namespace restWithASPNET10Study.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Users user)
+        public IActionResult Post([FromBody] Book books)
         {
-            _logger.LogInformation("Create user: {firstName}", user.FirstName);
-            return Ok(_userService.Create(user));
+            _logger.LogInformation("Create a book: {firstName}", books.Title);
+            return Ok(_booksService.Create(books));
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody] Users user)
+        public IActionResult Put([FromBody] Book books)
         {
-            _logger.LogInformation("Update User with id: {Id}", user.Id);
-            var updatedUser = _userService.Update(user);
+            _logger.LogInformation("Update User with id: {Id}", books.Id);
+            var updatedUser = _booksService.Update(books);
             if (updatedUser == null) { 
-                _logger.LogError("User with ID: {id} not found for update", user.Id);
+                _logger.LogError("User with ID: {id} not found for update", books.Id);
                 return NotFound(); }
-            _logger.LogInformation("User with ID: {id} updated successfully", user.Id);
+            _logger.LogInformation("User with ID: {id} updated successfully", books.Id);
             return Ok(updatedUser);
         }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            _logger.LogInformation("Delete user with ID: {id}", id);
-            var user = _userService.FindById(id);
-            if (user == null) { 
+            _logger.LogInformation("Delete Book with ID: {id}", id);
+            var books = _booksService.FindById(id);
+            if (books == null) { 
                 _logger.LogError("User with ID: {id} not found for deletion", id);
                 return NotFound(); }
-            _userService.Delete(id);
+            _booksService.Delete(id);
             _logger.LogInformation("User with ID: {id} deleted successfully", id);
             return NoContent();
         }

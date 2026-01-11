@@ -5,10 +5,10 @@ namespace restWithASPNET10Study.Services
 {
     public interface IUserService
     {
-        User Create(User user);
-        User FindById(long id);
-        List<User> FindAll();
-        User Update(User user);
+        Users Create(Users user);
+        Users FindById(long id);
+        List<Users> FindAll();
+        Users Update(Users user);
         void Delete(long id);
 
     }

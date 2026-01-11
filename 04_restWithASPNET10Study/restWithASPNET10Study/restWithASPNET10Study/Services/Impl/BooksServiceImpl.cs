@@ -4,19 +4,19 @@ using restWithASPNET10Study.Repositories;
 
 namespace restWithASPNET10Study.Services.Impl
 {
-    public class UserServiceImpl : IUserService
+    public class BooksServiceImpl : IBooksService
     {
 
-        private IUserRepository _repository;
+        private IBooksRepository _repository;
 
-        public UserServiceImpl(IUserRepository repository)
+        public BooksServiceImpl(IBooksRepository repository)
         {
             _repository = repository;
         }
 
-        public Users Create(Users user)
+        public Book Create(Book books)
         {
-            return _repository.Create(user);
+            return _repository.Create(books);
         }
 
         public void Delete(long id)
@@ -24,25 +24,25 @@ namespace restWithASPNET10Study.Services.Impl
             _repository.Delete(id);
         }
 
-        public List<Users> FindAll()
+        public List<Book> FindAll()
         {
             return _repository.FindAll();
         }
 
-        public Users FindById(long id)
+        public Book FindById(long id)
         {
-            var existUser = _repository.FindById(id);
+            var existBooks = _repository.FindById(id);
 
-            if (existUser == null)
+            if (existBooks == null)
             {
                 return null;
             }
-            return existUser;
+            return existBooks;
         }
 
-        public Users Update(Users user)
+        public Book Update(Book books)
         {
-            return _repository.Update(user);
+            return _repository.Update(books);
         }
     }
 }

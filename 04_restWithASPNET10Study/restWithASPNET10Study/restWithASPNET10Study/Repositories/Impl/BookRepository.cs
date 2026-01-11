@@ -3,55 +3,55 @@ using restWithASPNET10Study.Model.Context;
 
 namespace restWithASPNET10Study.Repositories.Impl
 {
-    public class UserRepository : IUserRepository
+    public class BooksRepository : IBooksRepository
     {
         private MSSQLContext _context;
 
-        public UserRepository(MSSQLContext context)
+        public BooksRepository(MSSQLContext context)
         {
             _context = context;
         }
 
-        public User Create(User user)
+        public Book Create(Book books)
         {
-            _context.Add(user);
+            _context.Add(books);
             _context.SaveChanges();
-            return user;
+            return books;
         }
 
         public void Delete(long id)
         {
-            var existingUser = _context.Users.Find(id);
+            var existingUser = _context.Books.Find(id);
             if (existingUser == null) return;
 
-            _context.Users.Remove(existingUser);
+            _context.Books.Remove(existingUser);
             _context.SaveChanges();
         }
 
-        public List<User> FindAll()
+        public List<Book> FindAll()
         {
-            return _context.Users.ToList();
+            return _context.Books.ToList();
         }
 
-        public User FindById(long id)
+        public Book FindById(long id)
         {
-            var existUser = _context.Users.Find(id);
+            var existBooks = _context.Books.Find(id);
 
-            if (existUser == null)
+            if (existBooks == null)
             {
                 return null;
             }
-            return existUser;
+            return existBooks;
         }
 
-        public User Update(User user)
+        public Book Update(Book books)
         {
-            var existingUser = _context.Users.Find(user.Id);
-            if (existingUser == null) return null;
+            var existingbooks = _context.Books.Find(books.Id);
+            if (existingbooks == null) return null;
 
-            _context.Entry(existingUser).CurrentValues.SetValues(user);
+            _context.Entry(existingbooks).CurrentValues.SetValues(books);
             _context.SaveChanges();
-            return user;
+            return books;
         }
     }
 }

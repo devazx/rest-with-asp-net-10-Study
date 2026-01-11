@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 namespace restWithASPNET10Study.Model
 {
     [Table("books")]
-    public class Books
+    public class Book
     {
         [Key]
         [Column("id")]
@@ -14,17 +14,15 @@ namespace restWithASPNET10Study.Model
         [Required]
         [Column("title", TypeName = "varchar(MAX)")]
         [MaxLength]
-        public string title { get; set; }
+        public string Title { get; set; }
         [Required]
         [Column("author", TypeName = "varchar(MAX)")]
-        [MaxLength(80)]
-        public string author { get; set; }
+        public string Author { get; set; }
         [Required]
-        [Column("address", TypeName = "varchar(100)")]
-        public Double Price { get; set; }
+        [Column("price", TypeName = "decimal(18,2)")]
+        public double Price { get; set; }
         [Required]
-        [Column("gender", TypeName = "varchar(6)")]
-        [MaxLength(6)]
-        public string Gender { get; set; }
+        [Column("launch_date", TypeName = "datetime2(6)")]
+        public DateTime Launch_date { get; set; }
     }
 }

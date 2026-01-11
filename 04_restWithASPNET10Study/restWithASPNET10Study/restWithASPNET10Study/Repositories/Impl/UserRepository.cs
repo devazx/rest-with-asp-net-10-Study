@@ -12,7 +12,7 @@ namespace restWithASPNET10Study.Repositories.Impl
             _context = context;
         }
 
-        public User Create(User user)
+        public Users Create(Users user)
         {
             _context.Add(user);
             _context.SaveChanges();
@@ -28,12 +28,12 @@ namespace restWithASPNET10Study.Repositories.Impl
             _context.SaveChanges();
         }
 
-        public List<User> FindAll()
+        public List<Users> FindAll()
         {
             return _context.Users.ToList();
         }
 
-        public User FindById(long id)
+        public Users FindById(long id)
         {
             var existUser = _context.Users.Find(id);
 
@@ -44,9 +44,9 @@ namespace restWithASPNET10Study.Repositories.Impl
             return existUser;
         }
 
-        public User Update(User user)
+        public Users Update(Users user)
         {
-            var existingUser = _context.Users.Find(user.Id);
+            var existingUser = _context.Users.Find((object)user.Id);
             if (existingUser == null) return null;
 
             _context.Entry(existingUser).CurrentValues.SetValues(user);
