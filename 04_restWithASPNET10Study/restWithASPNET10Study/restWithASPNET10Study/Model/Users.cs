@@ -4,12 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace restWithASPNET10Study.Model
 {
     [Table("users")]
-    public class Users
+    public class Users : Base.BaseEntity
     {
-        [Key]
-        [Column("id")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long Id { get; set; }
         [Required]
         [Column("first_name", TypeName = "varchar(80)")]
         [MaxLength(80)]

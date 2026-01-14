@@ -7,9 +7,9 @@ namespace restWithASPNET10Study.Services.Impl
     public class BooksServiceImpl : IBooksService
     {
 
-        private IBooksRepository _repository;
+        private IRepository<Book> _repository;
 
-        public BooksServiceImpl(IBooksRepository repository)
+        public BooksServiceImpl(IRepository<Book> repository)
         {
             _repository = repository;
         }

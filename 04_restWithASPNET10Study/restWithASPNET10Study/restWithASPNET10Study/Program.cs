@@ -18,11 +18,9 @@ builder.Services.AddEvolveConfiguration(builder.Configuration, builder.Environme
 
 builder.Services.AddScoped<IBooksService, BooksServiceImpl>();
 
-builder.Services.AddScoped<IBooksRepository, BooksRepository>();
-
 builder.Services.AddScoped<IUserService, UserServiceImpl>();
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 
 var app = builder.Build();
 
