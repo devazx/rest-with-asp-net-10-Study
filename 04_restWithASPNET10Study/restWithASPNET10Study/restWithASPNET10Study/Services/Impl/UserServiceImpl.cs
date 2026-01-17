@@ -7,9 +7,9 @@ namespace restWithASPNET10Study.Services.Impl
     public class UserServiceImpl : IUserService
     {
 
-        private IUserRepository _repository;
+        private IRepository<Users> _repository;
 
-        public UserServiceImpl(IUserRepository repository)
+        public UserServiceImpl(IRepository<Users> repository)
         {
             _repository = repository;
         }
