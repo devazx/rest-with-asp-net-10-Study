@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using restWithASPNET10Study.Data.Dto;
 using restWithASPNET10Study.Model;
 using restWithASPNET10Study.Services;
 
@@ -38,14 +39,14 @@ namespace restWithASPNET10Study.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Users user)
+        public IActionResult Post([FromBody] UsersDto user)
         {
             _logger.LogInformation("Create user: {firstName}", user.FirstName);
             return Ok(_userService.Create(user));
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody] Users user)
+        public IActionResult Put([FromBody] UsersDto user)
         {
             _logger.LogInformation("Update User with id: {Id}", user.Id);
             var updatedUser = _userService.Update(user);

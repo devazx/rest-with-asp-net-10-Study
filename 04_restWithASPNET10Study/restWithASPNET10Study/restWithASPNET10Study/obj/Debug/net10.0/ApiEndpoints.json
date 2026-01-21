@@ -103,7 +103,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "restWithASPNET10Study.Model.Users",
+        "Type": "restWithASPNET10Study.Data.Dto.UsersDto",
         "IsRequired": true
       }
     ],
@@ -119,7 +119,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "restWithASPNET10Study.Model.Users",
+        "Type": "restWithASPNET10Study.Data.Dto.UsersDto",
         "IsRequired": true
       }
     ],

@@ -1,4 +1,6 @@
-﻿using restWithASPNET10Study.Model;
+﻿using restWithASPNET10Study.Data.Converter.Impl;
+using restWithASPNET10Study.Data.Dto;
+using restWithASPNET10Study.Model;
 using restWithASPNET10Study.Model.Context;
 using restWithASPNET10Study.Repositories;
 
@@ -9,14 +11,19 @@ namespace restWithASPNET10Study.Services.Impl
 
         private IRepository<Users> _repository;
 
+        private readonly UserConverter _converter;
+
         public UserServiceImpl(IRepository<Users> repository)
         {
             _repository = repository;
+            _converter = new UserConverter();
         }
 
-        public Users Create(Users user)
+        public UsersDto Create(UsersDto user)
         {
-            return _repository.Create(user);
+            var entity = _converter.Parse(user);
+            entity = _repository.Create(entity);
+            return _converter.Parse(entity);
         }
 
         public void Delete(long id)
@@ -24,14 +31,14 @@ namespace restWithASPNET10Study.Services.Impl
             _repository.Delete(id);
         }
 
-        public List<Users> FindAll()
+        public List<UsersDto> FindAll()
         {
-            return _repository.FindAll();
+            return _converter.ParseList(_repository.FindAll());
         }
 
-        public Users FindById(long id)
+        public UsersDto FindById(long id)
         {
-            var existUser = _repository.FindById(id);
+            var existUser = _converter.Parse(_repository.FindById(id));
 
             if (existUser == null)
             {
@@ -40,9 +47,11 @@ namespace restWithASPNET10Study.Services.Impl
             return existUser;
         }
 
-        public Users Update(Users user)
+        public UsersDto Update(UsersDto user)
         {
-            return _repository.Update(user);
+            var entity = _converter.Parse(user);
+            entity = _repository.Update(entity);
+            return _converter.Parse(entity);
         }
     }
 }
